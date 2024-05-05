@@ -1,0 +1,124 @@
+body {
+    background-color: #084484;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #08447c;
+}
+.logo {
+    width: 300px;
+}
+.options {
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #00ab63;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.space {
+    width: 300px;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+h2 {
+    color: #fed601;
+    font-weight: bolder;
+}
+
+p, li {
+    color: white;
+    
+    line-height: 1.42857143;
+}
+ul {
+    list-style-type: disc;
+}
+
+
+
+footer {
+    background-color: #00a950;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: -webkit-sticky;
+    width: 100%;
+
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 60px auto 48px;
+    grid-template-columns: 160px auto auto;
+    grid-template-areas:
+        'area1 area2 area3 area4 area5 area6 area7';
+}
+
+.cont1 {
+    grid-area: area1;
+}
+.cont2 {
+    grid-area: area2;
+    
+}
+.cont3 {
+    grid-area: area3;
+    
+}
+.cont4 {
+    grid-area: area4;
+    
+}
+.cont5 {
+    grid-area: area5;
+    
+}
+.cont6 {
+    grid-area: area6;
+    
+}
+
+.cont7 {
+    grid-area: area6;
+    
+}
